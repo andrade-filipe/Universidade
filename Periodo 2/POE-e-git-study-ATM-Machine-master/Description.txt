@@ -1,0 +1,17 @@
+#ATM Machine - JavaBank- funcionalidades:
+
+#1. Cadastro de Cliente - Nome, Opção entre Corrente ou Poupança, Opção entre Pessoa Fisica(CPF) ou Juridica(CNPJ), Email, Senha,
+#Gera Número da Conta automaticamente, Saldo da Conta, Extrato
+#2. Login - Pede Número da Conta e Senha e chama o contrutor com as informações
+#3. Depósito de Dinheiro - Soma ao Saldo total
+#4. Saque de Dinheiro - Subtrai do total
+#5. Extrato Bancário - Lista das Ultimas Operações na Conta
+#6. Investimentos - Se o Cliente escolher investir uma quantia, é retirada do saldo e colocada no respectivo investimento
+#Fundo ARCA aposentadoria, Tesouro Direto, Fundo Imobiliário do JavaBank
+#7. Display - Area que o Cliente interaje
+
+Organização do Programa:
+classes - Main, Cliente, Menu, Display, BankData(contém todas as movimentações da conta e investimentos)
+Main creates a new Display
+Display acess Menu
+Menu set the Cliente and get info from the BankData
